@@ -1,7 +1,7 @@
 class FizzBuzz{
 
   _isDivisibleBy(number, divisor) {
-    return (number % divisor == 0);
+    return (number % divisor === 0);
   }
 
   says(number) {
